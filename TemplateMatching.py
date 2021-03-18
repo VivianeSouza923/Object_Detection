@@ -60,6 +60,8 @@ print(xSize,ySize)
 
 while(cap.isOpened()):
 
+
+
     ret, img = cap.read()
     res = cv2.resize(img, None, fx=.7, fy=.7, interpolation=cv2.INTER_BITS)
     res = cv2.cvtColor(res, cv2.COLOR_BGR2GRAY)
