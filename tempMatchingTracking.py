@@ -11,10 +11,10 @@ from math import *
 from skimage.feature import local_binary_pattern
 
 
-def normalozeImage(v):
+def normalizeImage(v):
     v = (v - v.min()) / (v.max() - v.min() + 1)
-    result = (v * 255)astype(np.uint8)
+    result = (v * 255).astype(np.uint8)
     return result
 
 
-cap = cv2.VideoCapture('bread.mp4')
+cap = cv2.VideoCapture('Taiwan.mp4')
