@@ -17,4 +17,4 @@ def normalizeImage(v):
     return result
 
 
-cap = cv2.VideoCapture('Taiwan.mp4')
+cap = cv2.VideoCapture('bread.mp4')
